@@ -1,0 +1,142 @@
+                                                          Topics: Confidence Intervals
+
+
+1.	For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I.	The sample size of the survey should at least be a fixed percentage of the population size in order to produce representative results.
+Sol) False, it depends on the sample size and sample size should have atleast 30 observations.
+
+II.	The sampling frame is a list of every item that appears in a survey sample, including those that did not respond to questions.
+Sol) False, the sampling frame is a list of items in the target population from which the sample is selected.
+
+III.	Larger surveys convey a more accurate impression of the population than smaller surveys.
+Sol) True, larger the sample lesser the standard deviation.
+
+
+_______________________________________________________________________________________________________________________________________________________________
+
+2.	PC Magazine asked all of its readers to participate in a survey of their satisfaction with different brands of electronics. In the 2004 survey,
+which was included in an issue of the magazine that year, more than 9000 readers rated the products on a scale from 1 to 10. The magazine reported that 
+the average rating assigned by 225 readers to a Kodak compact digital camera was 7.5. For this product, identify the following:
+
+A.	The population
+Sol) reader of magazine = 9000
+B.	The parameter of interest 
+Sol)camera’s rating = 7.5
+C.	The sampling frame
+Sol) readers who read PC magazine
+D.	The sample size
+Sol) 225
+E.	The sampling design
+Sol) survey of PC magazine
+F.	Any potential sources of bias or other problems with the survey or sample
+Sol) Chances that readers who are pleased or unpleased only participated in the survey can make the results unreliable.
+
+
+___________________________________________________________________________________________________________________________________________________________________
+
+3.	For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I.	If the 95% confidence interval for the average purchase of customers at a department store is $50 to $110, then $100 is a plausible value for the 
+    population mean at this level of confidence.
+Sol) False, 100 is closer to higher value 110, so it is not possible that 100 is the mean.
+
+II.	If the 95% confidence interval for the number of moviegoers who purchase concessions is 30% to 45%, this means that fewer than half of
+    all moviegoers purchase concessions.
+Sol) False, we cannot tell, have to consider values out of the given range.
+
+III.	The 95% Confidence-Interval for μ only applies if the sample data are nearly normally distributed. 
+Sol) False, sample distribution is normal regardless of the data, from central limit theorem.
+
+
+_________________________________________________________________________________________________________________________________________________________________
+
+4.	What are the chances that sample mean > population mean?
+
+A.	¼ 
+B.	½ Correct answer
+C.	¾ 
+D.	1
+
+
+_______________________________________________________________________________________________________________________________________________________________
+
+5.	In January 2005, a company that monitors Internet traffic (WebSideStory) reported that its sampling revealed that the Mozilla Firefox browser launched
+    in 2004 had grabbed a 4.6% share of the market.
+
+I.	If the sample were based on 2,000 users, could Microsoft conclude that Mozilla has a less than 5% share of the market?
+Sol) N= 2000, p= 0.046, q=0.956, z(95%)= 1.96
+Interval estimation = point estimate ± margin of error
+                                  =0.046 ± z*(sqrt(p(1-p)/n))
+                                 =0.046 ± 1.96(sqrt(0.046*0.954)/2000
+                                 =0.046 ± 0.0091
+                                 = [0.0368 – 0.0551]
+Thus Microsoft can conclude that the share can be within this interval which is less than 5%.
+
+II.	WebSideStory claims that its sample includes all the daily Internet users. If that’s the case, then can Microsoft conclude that Mozilla has a less than 5%
+share of the market.
+Sol) Yes, In this case, we have data on entire population and sample value accurately reflects the population. Thus we can conclude that Mozilla 
+has share less than 5%.
+
+
+___________________________________________________________________________________________________________________________________________________________________
+
+6.	A book publisher monitors the size of shipments of its textbooks to university bookstores. For a sample of texts used at various schools, the 95% confidence interval
+for the size of the shipment was 250 ± 45 books. Which, if any, of the following interpretations of this interval are correct?
+
+A.	All shipments are between 205 and 295 books.
+Sol) Incorrect, All means 100% but the interval is given for 95%.
+B.	95% of shipments are between 205 and 295 books.
+Sol) Incorrect, the intervals doesn’t describe individual shipments.
+
+C.	The procedure that produced this interval generates ranges that hold the population mean for 95% of samples.
+Sol) Correct.
+
+D.	If we get another sample, then we can be 95% sure that the mean of this second sample is between 205 and 295.
+Sol) Incorrect, this interval doesn’t describe the mean for another sample.
+
+E.	We can be 95% confident that the range 160 to 340 holds the population mean.
+Sol) Correct.
+
+
+___________________________________________________________________________________________________________________________________________________________________
+
+7.	Which is shorter: a 95% z-interval or a 95% t-interval for μ if we know that σ =s?
+
+A.	The z-interval is shorter (Correct answer)
+B.	The t-interval is shorter
+C.	Both are equal
+D.	We cannot say
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Questions 8 and 9 are based on the following: To prepare a report on the economy, analysts need to estimate the percentage of businesses that plan to hire 
+additional employees in the next 60 days.
+
+8.	How many randomly selected employers (minimum number) must we contact in order to guarantee a margin of error of no more than 4% (at 95% confidence)?
+Sol) margin of error = z*(sqrt(p(1-p)/N))
+	N = [(z/m)^2 ]*p(1-p)
+ 	m= 0.04, p=0.5, z(95%) = 1.96
+	N = (1.96/0.04)^2 * 0.25
+	N = 592.13 which is near to 600.
+
+A.	600 correct
+B.	400
+C.	550
+D.	1000
+
+_______________________________________________________________________________________________________________________________________________________________-
+
+9.	Suppose we want the above margin of error to be based on a 98% confidence level. What sample size (minimum) must we now use?
+Sol) Here z = 2.33
+	N = (2.33/0.04)^2 * 0.25
+	N = 848.26.
+
+A.	1000
+B.	757
+C.	848 correct
+D.	543
+
+___________________________________________________________________________________________________________________________________________________________________
+
